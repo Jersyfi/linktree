@@ -20,4 +20,7 @@ jobs:
         password: ${{ secrets.ALL_INKL_FTP_PASSWORD }}
         server-dir: /linktr.jersyfi.de/
         exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
           **/README.de*
