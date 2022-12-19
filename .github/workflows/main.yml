@@ -1,5 +1,9 @@
-on: push
+on:
+  - push
+
 name: Deploy to ALL-INKL
+run-name: "ALL-INKL Deploy · ${{ github.event.head_commit.message || format('Triggered by {0}', github.triggering_actor) }}"
+
 jobs:
   web-deploy:
     name: deployment
