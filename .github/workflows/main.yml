@@ -23,4 +23,4 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
-          **/README.de*
+          README.md
