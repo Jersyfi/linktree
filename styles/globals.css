@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+      @apply text-4xl;
+  }
+  h2 {
+      @apply text-3xl;
+  }
+  h3 {
+      @apply text-2xl;
+  }
+}
+
+.bg-gradient-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.bg-gradient-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf4977c 0%, #fdf4977c 5%, #fd59497c 45%,#d6249f7c 60%,#285AEB7c 90%);
+}
+
+.bg-gradient-steam {
+  background: linear-gradient(to right, #3e6796, #0f216e);
+}
+
+.bg-gradient-steam:hover {
+  background: linear-gradient(to right,#3e67967c, #0f206e7c);
+}
+
+.cover {
+  background-image: url(https://linktr.jersyfi.de/assets/myself-hintergrund.png);
+}
+
+.picture img {
+  animation: glow 3s infinite alternate ease-in-out;
+}
+
+@keyframes glow {
+  from {
+      outline-color: #f4120e;
+  }
+  to {
+      outline-color: #f4120e3b;
+  }
+}
