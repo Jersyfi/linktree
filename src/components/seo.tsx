@@ -49,7 +49,7 @@ const Seo: React.FC<Props> = ({ person }) => {
                 additionalLinkTags={[
                     {
                         rel: 'shortcut icon',
-                        href: 'https://cdn.jersyfi.de/assets/favicon.png',
+                        href: '/favicon-32x32.png',
                     },
                     {
                         rel: 'apple-touch-icon',
@@ -77,7 +77,7 @@ const Seo: React.FC<Props> = ({ person }) => {
             />
 
             <LogoJsonLd
-                logo="https://cdn.jersyfi.de/assets/favicon.png"
+                logo="https://linktr.jersyfi.de/logo.png"
                 url="https://jersyfi.de/"
             />
         </>
