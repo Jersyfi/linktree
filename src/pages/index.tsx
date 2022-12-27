@@ -13,7 +13,7 @@ export default function Home() {
     const linktree = {
         person: {
             picture: "/img/profilbild.jpg",
-            wallpaper: "/img/wallpaper.png",
+            wallpaper: "/img/wallpaper.jpg",
             nickname: "Jersyfi",
             fullname: "Jérôme Bastian Winkel",
             displayname: "J. B. Winkel",
