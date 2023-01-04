@@ -12,6 +12,7 @@ const Icon: React.FC<Props> = ({ icon }) => {
         spotify: "p-2 bg-spotify-500 rounded-full shadow-md hover:bg-spotify-300 focus:outline-none focus:ring-2 focus:ring-spotify-400 focus:ring-opacity-75",
         snapchat: "p-2 bg-snapchat-500 rounded-full shadow-md hover:bg-snapchat-200 focus:outline-none focus:ring-2 focus:ring-snapchat-300 focus:ring-opacity-75",
         youtube: "p-2 bg-youtube-600 rounded-full shadow-md hover:bg-youtube-400 focus:outline-none focus:ring-2 focus:ring-youtube-500 focus:ring-opacity-75",
+        github: "p-2 bg-github-700 rounded-full shadow-md hover:bg-github-600 focus:outline-none focus:ring-2 focus:ring-github-700 focus:ring-opacity-75",
     }
 
     const getIconClass = (type: string, iconClasses: any) => {

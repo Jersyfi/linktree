@@ -1,10 +1,8 @@
 {
   "name": "linktree",
-  "version": "2.0.4",
+  "version": "2.1.4",
   "private": true,
   "scripts": {
-    "old-dev": "next dev",
-    "old-build": "next build",
     "dev": "concurrently \"next dev --turbo\" \"tailwindcss -i src/styles/globals.css -o src/styles/dist.css -w\"",
     "build": "tailwindcss -m -i src/styles/globals.css -o src/styles/dist.css && next build",
     "start": "next start",

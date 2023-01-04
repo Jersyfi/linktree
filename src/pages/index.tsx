@@ -32,16 +32,24 @@ export default function Home() {
                     link: "https://jersyfi.de/",
                 },
                 {
+                    type: "LinkedIn",
                     text: "Jobprofil auf LinkedIn",
                     link: "https://www.linkedin.com/in/j%C3%A9r%C3%B4me-bastian-winkel-570385233/",
                 },
                 {
+                    type: "Twitter",
                     text: "Tweets zu Kontroversen Themen",
                     link: "https://twitter.com/jersyfi",
                 },
                 {
+                    type: "GitHub",
+                    text: "Repositories von Programmierprojekten",
+                    link: "https://github.com/Jersyfi",
+                },
+                {
                     text: "Community Projekt SaltyKids",
                     link: "https://saltykids.de/",
+                    badge: "New",
                 },
             ],
             icons: [
