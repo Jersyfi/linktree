@@ -24,7 +24,7 @@ const Icon: React.FC<Props> = ({ icon }) => {
     }
 
     return (
-        <a href={icon.link} target="_blank">
+        <a href={icon.link} target="_blank" rel="noreferrer">
             <button className={getIconClass(icon.type.toLowerCase(), iconClasses)}>
                 <div className="h-8 w-8 flex">
                     <Image

@@ -51,7 +51,7 @@ const BadgeElem: React.FunctionComponent<BadgeElemProps> = ({ badge }) => {
 
 const Button: React.FC<Props> = ({ button }) => {
     return (
-        <a href={button.link} target="_blank">
+        <a href={button.link} target="_blank" rel="noreferrer">
             <button className="relative w-full bg-tamarillo-900 text-white font-semibold rounded-full shadow-md hover:bg-tamarillo-700 focus:outline-none focus:ring-2 focus:ring-tamarillo-600 focus:ring-opacity-75" type="button">
                 <IconElem type={button.type} />
                 <div className="py-3 px-4">

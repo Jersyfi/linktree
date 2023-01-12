@@ -765,24 +765,14 @@ h3 {
   background-color: rgb(205 32 31 / var(--tw-bg-opacity));
 }
 
-.bg-github-800 {
+.bg-github-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(53 67 85 / var(--tw-bg-opacity));
+  background-color: rgb(57 77 101 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.bg-github-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 27 34 / var(--tw-bg-opacity));
-}
-
-.bg-github-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(57 77 101 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
