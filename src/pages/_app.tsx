@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 theme: 'custom',
                 force: true,
                 info: {
-                    title: 'Wir verwenden Cookies!',
+                    title: 'Cookies in Verwendung!',
                     desc: 'Willkommen! Um Ihr Erlebnis zu verbessern, verwenden wir Cookies und halten uns an die GDPR.',
                     buttons: [
                         {
