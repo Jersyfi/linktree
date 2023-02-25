@@ -1,7 +1,8 @@
 import '../styles/dist.css'
 import type { AppProps } from 'next/app'
 import { CookifyConsent } from 'react-cookify'
-import { Analytics } from '@vercel/analytics/react';
+import Image from 'next/image'
+import AnalyticsHandler from '../components/analyticsHandler'
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
@@ -64,14 +65,27 @@ export default function App({ Component, pageProps }: AppProps) {
                         {
                             for: 'analytics',
                             title: 'Zum Analysieren',
-                            desc: 'Analytische Cookies helfen uns, das Nutzerverhalten auf unserer Webseite zu verstehen und unsere Seite kontinuierlich zu verbessern. Diese Cookies sammeln anonymisierte Informationen darüber, wie Besucher unsere Webseite nutzen, z.B. welche Seiten am häufigsten besucht werden oder welche Fehlermeldungen auftreten. Die Daten, die durch analytische Cookies gesammelt werden, dienen ausschließlich der Verbesserung der Nutzererfahrung und werden nicht an Dritte weitergegeben.',
+                            desc: (
+                                <>
+                                    <p className="mb-3">
+                                        Analytische Cookies helfen uns, das Nutzerverhalten auf unserer Webseite zu verstehen und unsere Seite kontinuierlich zu verbessern. Diese Cookies sammeln anonymisierte Informationen darüber, wie Besucher unsere Webseite nutzen, z.B. welche Seiten am häufigsten besucht werden oder welche Fehlermeldungen auftreten. Die Daten, die durch analytische Cookies gesammelt werden, dienen ausschließlich der Verbesserung der Nutzererfahrung und werden nicht an Dritte weitergegeben.
+                                    </p>
+
+                                    <a href="https://vercel.com/legal/privacy-policy">
+                                        <div className="border p-2 rounded-lg inline-flex w-full">
+                                            <p className="mr-auto">Vercel Inc.</p>
+                                            <Image src="/icons/linking.svg" alt="Privacy Policy - Vercel" height={20} width={20} />
+                                        </div>
+                                    </a>
+                                </>
+                            )
                         }
                     ]
                 },
             }
         }}>
             <Component {...pageProps} />
-            <Analytics />
+            <AnalyticsHandler />
         </CookifyConsent>
     )
 }
