@@ -37,19 +37,9 @@ export default function Home() {
                     link: "https://www.linkedin.com/in/j%C3%A9r%C3%B4me-bastian-winkel-570385233/",
                 },
                 {
-                    type: "Twitter",
-                    text: "Tweets zu Kontroversen Themen",
-                    link: "https://twitter.com/jersyfi",
-                },
-                {
                     type: "GitHub",
                     text: "Repositories von Programmierprojekten",
                     link: "https://github.com/Jersyfi",
-                },
-                {
-                    text: "Community Projekt SaltyKids",
-                    link: "https://saltykids.de/",
-                    badge: "New",
                 },
             ],
             icons: [
@@ -60,6 +50,10 @@ export default function Home() {
                 {
                     type: "Instagram",
                     link: "https://www.instagram.com/jersyfi/",
+                },
+                {
+                    type: "Twitter",
+                    link: "https://twitter.com/jersyfi",
                 },
                 {
                     type: "Spotify",
