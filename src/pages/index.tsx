@@ -22,7 +22,7 @@ export default function Home() {
             profiles: [
                 'https://www.instagram.com/jersyfi/',
                 'https://www.youtube.com/@jersyfi',
-                'https://www.linkedin.com/in/j%C3%A9r%C3%B4me-bastian-winkel-570385233/',
+                'https://www.linkedin.com/in/jbwinkel/',
             ],
         },
         social: {
@@ -34,7 +34,7 @@ export default function Home() {
                 {
                     type: "LinkedIn",
                     text: "Jobprofil auf LinkedIn",
-                    link: "https://www.linkedin.com/in/j%C3%A9r%C3%B4me-bastian-winkel-570385233/",
+                    link: "https://www.linkedin.com/in/jbwinkel/",
                 },
                 {
                     type: "GitHub",
